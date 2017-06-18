@@ -1,0 +1,86 @@
+@charset "UTF-8";    /* 文字コードの指定 */
+
+@import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
+
+body {
+    font-family: Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
+}
+
+#header {
+    height: 500px;
+    background-image: url(../images/img_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+main {
+    margin: 20px
+}
+
+#box {
+    width: 30%
+}
+
+#title {
+    max-width: 300px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#showcase {
+    display: flex;
+    justify-content: space-around;
+}
+
+#box-title {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+    
+}
+
+#box-text {
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+    background-color: #838383
+}
+
+footer {
+    background-color: #f3f3f3
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.button {
+    max-width:200px;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#fff;
+    background-color:#838383;
+    margin: 10px auto;
+    border-radius:5px;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    #header {
+    height: 250px;
+    }
+    
+    #showcase {
+  -webkit-flex-direction: column; /* Safari */
+  flex-direction:         column;
+    }
+    
+    #box{
+        width: 100%;
+        margin: 5px auto;
+    }
+}
