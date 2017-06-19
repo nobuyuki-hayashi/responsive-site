@@ -18,11 +18,11 @@ main {
     margin: 20px
 }
 
-#box {
+.box {
     width: 30%
 }
 
-#title {
+.title {
     max-width: 300px;
     text-align: center;
     font-weight: bold;
@@ -35,14 +35,14 @@ main {
     justify-content: space-around;
 }
 
-#box-title {
+.box-title {
     text-align: center;
     padding: 20px;
     background-color: #f3f3f3;
     
 }
 
-#box-text {
+.box-text {
     text-align: center;
     color: #ffffff;
     padding: 40px;
@@ -79,7 +79,7 @@ footer {
   flex-direction:         column;
     }
     
-    #box{
+    .box{
         width: 100%;
         margin: 5px auto;
     }
